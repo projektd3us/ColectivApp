@@ -1,2 +1,2 @@
 # ColectivApp
-Our collective app
+Our collective app that will be built for our Collective Project class.
