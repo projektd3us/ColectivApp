@@ -16,6 +16,7 @@ import { SharedService } from './shared.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ShowDareTypeTableComponent } from './dare-type/show-dare-type-table/show-dare-type-table.component';
 
 @NgModule({
   declarations: [
@@ -30,12 +31,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     DareComponent,
     ShowDareComponent,
     AddEditDareComponent,
+    ShowDareTypeTableComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule
+
   ],
   providers: [SharedService],
   bootstrap: [AppComponent]
