@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SharedService } from 'src/app/shared.service';
+import {MatTableModule} from '@angular/material/table';
 
 @Component({
   selector: 'app-show-dare',
